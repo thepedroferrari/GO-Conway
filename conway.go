@@ -1,9 +1,9 @@
 package main
-import(
-	"github.com/hajimehoshi/ebiten"
-	"image/color"
-	"math/rand"
-	"log"
+import (
+    "github.com/hajimehoshi/ebiten"
+    "image/color"
+    "math/rand"
+    "log"
 )
 const scale=2
 const WIDTH=160
