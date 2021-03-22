@@ -16,8 +16,8 @@ var counter int=0
 
 // Logic
 func update() error{
-	for x:=1;x<WIDTH-1;x++ {
-		for y:=1;y<HEIGHT-1;y++ {
+	for x:= 1; x < WIDTH - 1; x++ {
+		for y:= 1; y < HEIGHT -1; y++ {
 			buffer[x][y]=0
 			n:=grid[x-1][y-1]+grid[x-1][y+0]+grid[x-1][y+1]+grid[x+0][y-1]+grid[x+0][y+1]+grid[x+1][y-1]+grid[x+1][y+0]+grid[x+1][y+1]
 			if grid[x][y]==0 && n==3 {
